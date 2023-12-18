@@ -1,2 +1,2 @@
-# wsam-client-rs
+# WebAssembly client
 WebAssembly (WASM) client side rendering using Leptos written in Rust.
