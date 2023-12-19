@@ -1,10 +1,20 @@
 <!DOCTYPE html><html><head>
-<link rel="preload" href="/wasm-client-rs-2fe5dd13e7768c6a_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/wasm-client-rs-2fe5dd13e7768c6a.js"></head>
+<link rel="preload" href="/wasm-client-rs-b8f88f47b4701518_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/wasm-client-rs-b8f88f47b4701518.js"></head>
 
 <body>
 
-<script type="module">import init from '/wasm-client-rs-2fe5dd13e7768c6a.js';init('/wasm-client-rs-2fe5dd13e7768c6a_bg.wasm');</script><script>(function () {
+
+
+<style>
+  .red {
+    color: red;
+  }
+
+  .green {
+    color: green;
+  }
+</style><script type="module">import init from '/wasm-client-rs-b8f88f47b4701518.js';init('/wasm-client-rs-b8f88f47b4701518_bg.wasm');</script><script>(function () {
     var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     var url = protocol + '//' + window.location.host + '/_trunk/ws';
     var poll_interval = 5000;
